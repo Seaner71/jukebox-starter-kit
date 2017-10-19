@@ -16,8 +16,7 @@ body {
   width: 50%;
   outline: 1px red solid;
 }
-.play {
-  background-image: url("../img/play.png");
+.controls {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -25,46 +24,27 @@ body {
   width: 64px;
   border-radius: 50%;
   margin-right: 55px;
+}
+
+.play {
+  background-image: url("../img/play.png");
+
 }
 .pause {
   background-image: url("../img/pause.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 64px;
-  width: 64px;
-  border-radius: 50%;
-  margin-right: 55px;
+
 }
 .ff {
   background-image: url("../img/ff.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 64px;
-  width: 64px;
-  border-radius: 50%;
-  margin-right: 55px;
+
 }
 .stop {
   background-image: url("../img/stop.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 64px;
-  width: 64px;
-  border-radius: 50%;
-  margin-right: 55px;
+
 }
 .next-song {
   background-image: url("../img/next-song.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 64px;
-  width: 64px;
-  border-radius: 50%;
-  margin-right: 55px;
+
 }
 marquee {
   font-size: 2em;
