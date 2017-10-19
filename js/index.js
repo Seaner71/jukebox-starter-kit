@@ -5,7 +5,7 @@ var stop = document.querySelector('.stop')
 var ff = document.querySelector('.ff')
 var nextSong = document.querySelector('.next-song')
 var fileName = audio.src.split('/').pop().split('.').shift()
-var songList = ["audio/franklin's-tower.m4a", 'audio/good-lovin.m4a']
+var songList = ["audio/franklin's-tower.m4a", 'audio/good-lovin.m4a', 'audio/deal.m4a']
 var currentSong = (songList.indexOf('audio/'+fileName+'.m4a'));
 var nowPlay = document.querySelector('marquee');
 
@@ -54,15 +54,14 @@ function nowPlaying (){
 /* not working properly - need to lok at it in a different light*/
 function changeSong() {
   console.log(currentSong);
-  if (currentSong === 0) {
-    audio.src = songList[1];
-    console.log(currentSong);
-    console.log(audio.src);
-    console.log('audio/'+fileName+'.m4a');
+  if (currentSong !== songList.length -1) {
+    audio.src = songList[currentSong + 1];
+    currentSong +=1;
+  }  else   {
+    audio.src = songList[0];
+    currentSong = 0;
   }
-  else {
-    audio.src = songlist[0];
-  }
+
 
   playAudio();
   nowPlaying();
@@ -83,6 +82,7 @@ function SetVolume()
 
 }
 */
+
 
 /* create Buttons class and instances - do I want this??*/
 /*
