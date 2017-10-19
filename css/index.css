@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: url(../img/grateful-dead.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 110px;
+}
+#commands {
+  height: 20vh;
+  margin: 30% auto;
+  width: 50%;
+  outline: 1px red solid;
+}
+.play {
+  background-image: url("../img/play.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  margin-right: 55px;
+}
+.pause {
+  background-image: url("../img/pause.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  margin-right: 55px;
+}
+.ff {
+  background-image: url("../img/ff.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  margin-right: 55px;
+}
+.stop {
+  background-image: url("../img/stop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  margin-right: 55px;
+}
+.next-song {
+  background-image: url("../img/next-song.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  margin-right: 55px;
+}
+marquee {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  width: 25%;
+}
+
+.duration {
+  color: white;
+  font-size: 1.3em;
+}
+#volume {
+  display: inline-block;
+
+}
